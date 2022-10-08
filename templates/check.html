@@ -1,0 +1,107 @@
+
+<!--
+{% extends 'main.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Home</title>
+    {%load static%}
+    <link rel="stylesheet" type="text/css" href="/static/css/home.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/home.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    {% csrf_token %}
+    <section class="site-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 site-title">
+                    <h3 class="title-text" style="font-family:Crimson Pro;font-size: 48px; font-style:bold;">Hyy_________________</h3>
+                    <h1 class="title-text text-uppercase" style="font-family:Crimson Pro;font-size: 48px; font-style:bold;">i am shivam</h1>
+                    <span
+										class="txt-type"
+										data-wait="2000"
+										data-words='["Front-End Developer","Back-End Developer", "Automation Tester", "Functional Tester"]'
+									></span>
+                     <h4 class="title-text text-uppercase" style="font-family:Crimson Pro;font-size: 25px;" >Junior Python Fullstack developer</h4>
+            //       <div class="site-buttons">
+                        <div class="d-flex flex-row flex-wrap">
+                            <button class="btn btn-outline-primary button-primary-button mr-4 text-uppercase" type="button">Hire Me</button>
+                            <button class="btn btn-outline-primary button-secondary-button  text-uppercase" type="button">get cv</button>
+                        </div>
+                 //   </div> 
+                    <div class="d-cv">
+									<a
+										href="{% url 'download_cv' %}"
+										class="btn-dark"
+                                        style="margin-top: 4rem; text-transform: uppercase;color: green;background-color: cyan;"
+										>Download CV</a
+									>
+								</div>
+
+
+                </div>
+                <div class="col-lg-6 col-md-12 banner-image">
+                    <img src="/static/img/shivam.jpg" alt="banner-image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script> 
+</body>
+</html>
+{% endblock %}
+
+//this is about.html
+
+<div class="border-nav"></div> -->
+<!-- About me Section 
+<section id="section-about-me">
+	<div class="container py-2">
+		<h2 class="section-title">About Me</h2>
+		<div class="bottom-line"></div>
+		<p class="lead text-center">Let me tell you more about myself</p>
+		<div class="about-me text-center">
+			<img
+				src="{% static 'img/shivam.jpg' %}"
+				alt="Hari-Bio"
+				srcset=""
+			/>
+			<div class="about-info">
+				<h4>Your Project is in Safe Hands</h4>
+				<p class="px-2 pt-1">
+					I carry an outgoing, dedicated and open minded approach
+					irrespective of anything. Getting across to people,
+					adjusting to changes with ease, highly organised and honesty
+					are some of my strength.
+				</p>
+				<p class="px-2 pt-2">
+					Being people's person has helped me evolve more as a person
+					moreover it aids in handling pressure at work.
+				</p>
+				<p class="px-2 pt-3">
+					I believe in taking account of my work and errors as it
+					shows my willingness to learn and grow. As an IT
+					professional, being updated is prime. Creativity, analytical
+					abilities, critical thinking and problem solving are couple
+					of more skills paramount in me
+				</p>
+				<p class="px-2 pt-4">
+					I love programming, I love to help others and I enjoy
+					exploring new technologies in general! My goal is to keep on
+					growing as a developer - and if I could help you do the
+					same, I'd be very happy 😇
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock content%}
+
+-->

@@ -1,0 +1,101 @@
+{% extends 'main.html' %}
+
+{% block content %}
+{% load static %}
+<!-- Skils Section -->
+<section id="main-skills">
+	<div class="container">
+		<h2 class="section-title py-3">Technical Skills</h2>
+		<div class="bottom-line"></div>
+		<p class="lead text-center">Here Are Things I'm Good At</p>
+		<div class="skill-main">
+			<ul>
+				<li>
+					<h5>Python</h5>
+					<p>Scripting,Tkinter, Django Framework </p>
+					<div class="outer-bar">
+						<div class="inner-bar" style="width: 85%"></div>
+					</div>
+				</li>
+                <li>
+					<h5>Blockchain</h5>
+					<p> Solidity </p>
+					<div class="outer-bar">
+						<div class="inner-bar" style="width: 75%"></div>
+					</div>
+				</li>
+				<li>
+					<h5>HTML5, CSS3 & JavaScript</h5>
+					<p> Bootstrap</p>
+					<div class="outer-bar">
+						<div class="inner-bar" style="width: 76%"></div>
+					</div>
+				</li>
+				<li>
+					<h5>SQL PL/SQL</h5>
+					<p>Mysql , Oracle</p>
+					<div class="outer-bar">
+						<div class="inner-bar" style="width: 75%"></div>
+					</div>
+				</li>
+				<li>
+					<h5>GIT AND GITHUB</h5>
+					<p></p>
+					<div class="outer-bar">
+						<div class="inner-bar" style="width: 70%"></div>
+					</div>
+				</li>
+				<li>
+					<h5>Cooking 🙈</h5>
+					<p></p>
+					<div class="outer-bar">
+						<div class="inner-bar" style="width: 100%"></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<!-- Skills Logo Section -->
+<section id="logo-skills" class="py-4">
+	<div class="container">
+		<div class="about-logos">
+			<img
+				src="{% static '/logo_img/django.svg' %}"
+				alt="Django"
+				srcset=""
+			/>
+			<img
+				src="{% static '/logo_img/python.svg' %}"
+				alt=""
+				srcset=""
+			/>
+			<img
+				src="{% static '/logo_img/javascript.svg' %}"
+				alt=""
+				srcset=""
+			/>
+			<img
+				src="{% static '/logo_img/html5.svg' %}"
+				alt=""
+				srcset=""
+			/>
+			<img
+				src="{% static '/logo_img/css3.svg' %}"
+				alt=""
+				srcset=""
+			/>
+			<img
+				src="{% static '/logo_img/tkinter.webp' %}"
+				alt=""
+				srcset=""
+			/>
+			<img
+				src="{% static '/logo_img/solidity.jpg' %}"
+				alt=""
+				srcset=""
+			/>
+		</div>
+	</div>
+</section>
+{% endblock %}

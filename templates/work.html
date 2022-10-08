@@ -1,0 +1,96 @@
+{% extends 'main.html' %}
+
+{% block content %}
+   {% load static %}
+    
+   <div class="border-nav"></div>
+
+   <section id="work-gallery">
+       <div class="sub-container py-2">
+           <h2 class="section-title py-2">My Work</h2>
+           <div class="bottom-line"></div>
+           <p class="lead text-center" >Check Out Some Of My Projects</p><br>
+           <div class="work-gallery-items">
+               <div class="col row-1">
+                   <h2 class="text-center">Django CRUD App</h2>
+                   <div class="caption">
+                       <p>
+                           DJango Framework based CRUD app A crud web
+                           application written with the goal of Create,
+                           Read, Update and Delete operations use DJango
+                           Framework as a Backend and HTML, CSS, Bootstrap 
+                           as Frontend.
+                       </p>
+                       <a
+                           class="btn btn-gallery"
+                           href="https://github.com/shivamkumar7878/CRUD-Operatiuons-in-Python-Django"
+                           >Know More</a
+                       >
+                   </div>
+                   <img
+                       src="{% static 'img//crud.png' %}"
+                       alt="Django CRUD app"
+                   />
+               </div>
+               <div class="col row-1">
+                   <h2 class="text-center">Portfolio Website</h2>
+                   <div class="caption">
+                       <p>
+                           My Portfolio website built on Django Framework.
+                           This application build with Python and the Django 
+                           framework using fullstack features of Django.
+                       </p>
+                       <a
+                           class="btn btn-gallery"
+                           href="https://github.com/shivamkumar7878/Shivam_Portfolio_Website"
+                           >Know More</a
+                       >
+                   </div>
+                   <p class="ft-10 text-right">💚</p>
+               </div>
+               </div>
+           <div class="work-gallery-items">
+               <div class="col row-2">
+                   <h2 class="text-center"> Billing Management System </h2>
+                   <div class="caption">
+                       <p>
+                        Billing System software Developed in tkinter (python GUI)
+                       </p>
+                       <a
+                           class="btn btn-gallery"
+                           href="https://github.com/shivamkumar7878/Billing-System-"
+                           >Know More</a
+                       >
+                   </div>
+                   <img
+                   src="{% static 'img//billingMng.png' %}"
+                   alt="Billing Management System"
+               />
+                   
+               </div>
+
+               <div class="col row-2">
+				<h2 class="text-center">Tic Tac Toe Game</h2>
+				<div class="caption">
+					<p>Tic Tac Toe is a simple game that I built using tkinter module of the python. </p>
+					<a
+						class="btn btn-gallery"
+						href="https://github.com/shivamkumar7878/Tic-Tac-Toe"
+						>Know More</a
+					>
+				</div>
+				<p class="ft-6 text-right">💣</p>
+                <img
+                src="{% static 'img//ticTacToe.png' %}"
+                alt="Tic Tac Toe Game"
+            />
+			</div>
+               
+            </div>
+       </div>
+
+
+
+
+       </section>                            
+{% endblock %}
