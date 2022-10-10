@@ -15,7 +15,7 @@ def download_cv(request):
     # Access the media_root directory from settings and join the path with pdf
     # to open the file, read as binary(bcoz it's pdf) and return in HttpResponse
 
-    with open(path.join(settings.MEDIA_ROOT, "ShivamResume.pdf"), "rb") as pd:
+    with open(path.join(settings.MEDIA_ROOT, "cv/ShivamResume.pdf"), "rb") as pd:
         response = HttpResponse(pd.read(), content_type="application/pdf")
         response[
             "Content-Disposition"
